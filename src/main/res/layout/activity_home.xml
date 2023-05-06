@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_bright"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="物流管理系统V2.0"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/background_light"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:background="@android:color/background_light"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@android:color/background_light"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="录入新运单" />
+
+    <Button
+        android:id="@+id/localButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="本地查询运单" />
+
+    <Button
+        android:id="@+id/xmlButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="查询公司XML运单" />
+
+    <Button
+        android:id="@+id/jsonButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="查询公司JSon运单" />
+
+    <Button
+        android:id="@+id/switchButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="切换用户" />
+
+    <Button
+        android:id="@+id/outButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="退出系统" />
+
+
+</LinearLayout>

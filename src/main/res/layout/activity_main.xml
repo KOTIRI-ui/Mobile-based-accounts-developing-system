@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@android:color/holo_blue_bright"
+            android:gravity="center"
+            android:paddingBottom="15dp"
+            android:text="物流系统2.0"
+            android:textColor="#E2FFFFFB"
+            android:textSize="36sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/Username"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="20dp"
+                android:background="@android:color/background_light"
+                android:ems="10"
+                android:hint="请输入用户名"
+                android:inputType="textPersonName"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/Password"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@android:color/background_light"
+                android:ems="10"
+                android:hint="请输入密码"
+                android:inputType="textPassword"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_blue_bright"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/Sign_in"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="20dp"
+            android:background="@android:color/background_light"
+            android:text="登 录"
+            android:textColor="#03A9F4"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/quit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="#FFFFFB"
+            android:text="退出"
+            android:textColor="#03A9F4"
+            android:textSize="18sp" />
+    </LinearLayout>
+</LinearLayout>
